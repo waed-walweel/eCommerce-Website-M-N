@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="./assets/output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +41,8 @@
             <div class="icons flex gap-[25.5px]">
                 <a href="#"><img src="assets/imgs/cart.svg" alt="Cart"></a>
                 <a class="Wishlist hidden md:block " href="#"><img src="assets/imgs/heart.svg" alt="Wishlist"></a>
-            </div>
+            </div> 
+            
         </div>
 
     </header>
@@ -162,9 +163,9 @@
         <div class="container mx-auto pt-24 pb-24 ">
             <div class="flex items-center justify-between mb-[64px] ">
                 <div>
-                    <h1 class="text-[20px] md:text-[36px] font-family-heading font-bold text-[#323232]">The Editorial Picks</h1>
+                    <h1 class="text-[20px] md:text-[36px] font-family-heading font-bold text-[#323232] ">The Editorial Picks</h1>
                 </div>
-                <div class="md:w-fit min-w-fit">
+                <div class="md:w-fit min-w-fit hidden md:block">
                     <img src="assets/imgs/home-b-butt.svg" alt="Line Image">
 
                 </div>
@@ -300,24 +301,25 @@
 
     <section>
         <div class="container mx-auto mb-24">
-            <div class="flex ">
-                <div class="items-center w-1/2 bg-[#FCF8F8] rounded-s-2xl">
+            <div class="lg:flex ">
+                <div class="items-center w-full lg:w-1/2 bg-[#FCF8F8] rounded-s-2xl">
                     <div class="mt-32.5 me-[15px] ms-[15px]">
-                        <h1 class="text-[#323232] text-[36px] font-family-heading font-bold">Join The Circle</h1>
-                        <p class="text-[#5F5F5F] text-[16px] font-family-body">Subscribe to receive exclusive access to
+                        <h1 class="text-[#323232] lg:text-start text-center text-[24px] lg:text-[36px] font-family-heading font-bold">Join The Circle</h1>
+                        <p class="text-[#5F5F5F] lg:text-start text-center text-[12px] lg:text-[16px] font-family-body">Subscribe to receive exclusive access to
                             early drops,
                             editorial insights, and seasonal private sales. Experience
                             the M&N philosophy.
                         </p>
+                        <input type="email" placeholder="Enter your email address"
+                            class="text-[#7B7A7A] lg:items-start items-center text-[8px] lg:text-[12px] font-family-body bg-[#F6F3F2] py-[14px] px-[14px] lg:py-[16px] lg:px-[24px] mt-4 w-1/2 border border-[#323232] p-[16px] outline-none ">                           
+                           </input>
                         <button
-                            class="text-[#7B7A7A] text-[12px] font-family-body bg-[#F6F3F2] py-[16px] ps-[24px] pe-[276.5px]">YOUR
-                            EMAIL ADDRESS</button>
-                        <button
-                            class="text-white bg-[#323232] font-family-body text-[12px] py-[16px] px-[183.5px] mt-4 hover:text-[#323232] hover:bg-white transition">SUBSCRIBE</button>
+                            class="text-white bg-[#323232] font-family-body text-[8px] lg:text-[12px] py-[14px]  lg:py-[16px]  mt-4 hover:text-[#323232] hover:bg-white transition w-1/2">SUBSCRIBE
+                        </button>
                     </div>
 
                 </div>
-                <div class="rounded-e-2xl">
+                <div class="rounded-e-2xl w-full lg:w-1/2">
                     <img src="./assets/imgs/home-page-اخ- صورة.png" . alt="Join The Circle Image">
                 </div>
             </div>
@@ -332,7 +334,7 @@
                     <img class="" src="./assets/imgs/logo-mn.svg" />
                 </div>
                 <div class="mt-[32px]">
-                    <ul class="flex gap-[48px]">
+                    <ul class="md:flex gap-[48px]">
                         <li><a class="text-[#5F5E5E] font-family-body font-semibold text-[11px]" href="#">PRIVACY
                                 POLICY</a></li>
                         <li><a class="text-[#5F5E5E] font-family-body font-semibold text-[11px]" href="#">TERMS OF

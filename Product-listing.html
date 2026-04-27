@@ -17,8 +17,9 @@
 </head>
 
 <body>
-    <header class="py-[24px] md:py-[18px] fixed top-0 left-0  w-full bg-white z-10">
-        <div class="container mx-auto flex items-center justify-between">
+
+    <header class="py-[24px] md:py-[18px]  top-0 left-0  w-full bg-white z-10 ">
+        <div class="container mx-auto flex items-center justify-between ">
             <div class="menue block lg:hidden">
                 <a href="#"><img class="w-6 md:hidden" src="assets/imgs/menue.svg" alt="Menue"></a>
             </div>
@@ -54,23 +55,46 @@
 
             </div>
 
-    </header> 
+    </header>
 
-    <section>
-        <div class="container mx-auto"> 
+    <section class="pt-[72px]">
+        <div class="container mx-auto">
             <div>
                 <h2>
                     Filter By Category
-                </h2> 
+                </h2>
                 <p>
                     REFINE YOUR SELECTION
-                </p> 
-                <input type="checkbox" id="Apparel" name="Apparel" value="Apparel">
+                </p>
+                <input type="text" placeholder="Apparel"
+                    class=" text-[14px] font-family-body text-[#A8D5A2] bg-[#F6F3F2] py-3 px-[24px] rounded-lg outline-none">
+
+                <ul class=" gap-[20px] mt-[20px]">
+                    <li><a class="font-family-body text-[12px] text-[#323232] hover:text-[#A8D5A2] transition"
+                            href="#">Accessories</a></li>
+                    <li><a class="font-family-body text-[12px] text-[#323232] hover:text-[#A8D5A2] transition"
+                            href="#">Footwear</a></li>
+                    <li><a class="font-family-body text-[12px] text-[#323232] hover:text-[#A8D5A2] transition"
+                            href="#">Jewelry</a></li>
+                    <li><a class="font-family-body text-[12px] text-[#323232] hover:text-[#A8D5A2] transition"
+                            href="#">Limited Edition</a></li>
+                </ul>
+                <div>
+                    <h2>
+                        SIZE
+                    </h2>
+                    <div class="">
+                        <button class="text-[14px] inline-block px-[11px] py-[8px] border border-[#E6E1DE] text-[#323232] "><a href="#">S</a></button>
+                        <button class="text-[14px] inline-block px-[11.5px] py-[8px] border border-[#E6E1DE] text-[#323232]"><a href="#">M</a></button>
+                        <button class="text-[14px] inline-block px-[11px] py-[8px] border border-[#E6E1DE] text-[#323232]"><a href="#">L</a></button>
+                        <button class="text-[14px] inline-block px-[9px] py-[9.4px] border border-[#E6E1DE] text-[#323232]"><a href="#">XL</a></button>
+                    </div>
+
+                </div>
             </div>
 
         </div>
     </section>
-
 </body>
 
 </html>

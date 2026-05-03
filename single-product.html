@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single Product Page</title> 
+    <title>Single Product Page</title>
     <link rel="stylesheet" href="./assets/output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
-<body> 
-      <header class="py-[24px] md:py-[18px] fixed top-0 left-0  w-full bg-white z-10">
+
+<body>
+    <header class="py-[24px] md:py-[18px] fixed top-0 left-0  w-full bg-white z-10">
         <div class="container mx-auto flex items-center justify-between">
             <div class="menue block lg:hidden">
                 <a href="#"><img class="w-6 md:hidden" src="assets/imgs/menue.svg" alt="Menue"></a>
@@ -25,8 +27,10 @@
             </div>
             <nav class="list hidden md:block">
                 <ul class="flex gap-[32px] text-[16px] ">
-                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition" href="./index.html">HOME</a></li>
-                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition" href="./Product-listing.html">COLLECTIONS</a>
+                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition" href="./index.html">HOME</a>
+                    </li>
+                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition"
+                            href="./Product-listing.html">COLLECTIONS</a>
                     </li>
                     <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition" href="#">NEW ARRIVALS</a>
                     </li>
@@ -37,63 +41,190 @@
             <div class="icons flex gap-[25.5px]">
                 <a href="#"><img src="assets/imgs/heart.svg" alt="Cart"></a>
                 <a class="Wishlist hidden md:block " href="#"><img src="assets/imgs/cart.svg" alt="Wishlist"></a>
-            </div> 
-            
-        </div>
-
-    </header> 
-
-    <section class=" mt-25"> 
-        <div class="container mx-auto flex gap-16"> 
-            <div class="w-[550px] shrink-0">
-                <div>
-                    <img src="./assets/imgs/فستان بيج سنجل برو.png" alt="Product Image">
-                </div> 
-                <div class="w-67.5 flex gap-6 mt-6"> 
-                    <img src="./assets/imgs/قماش-مورد-سنجل-برو.png" alt="Product Image"> 
-                    <img src="./assets/imgs/single-pro-بلوزة.png" alt="Product Image">
-                </div>
-            </div> 
-            <div class="flex-1">
-                <div class="gap-[8px]">
-                    <samp class="text-[#7B7A7A] text-[11px] font-family-body font-semibold tracking-[1.2px]">EDITORIAL COLLECTION</samp> 
-                    <h1 class="text-[#323232] text-[48px] font-family-heading font-bold">Silk Lily Dress</h1> 
-                    <samp class="text-[#40683F] text-[30px] font-family-body font-medium">$699.00</samp>
-                </div> 
-                <div class="mt-[40px] mb-[40px]"> 
-                    <h2 class="text-[#323232] text-[14px] font-family-body font-semibold tracking-[1.4px]">COLOR</h2> 
-                      <div class="mt-[16px] ">
-                        <ul class="flex gap-[12px]">
-                            <li><a href="#"><img src="./assets/imgs/لون-اسود.svg" alt="Black Color"></a></li>
-                            <li><a href="#"><img src="./assets/imgs/لون-ابيض.svg" alt="White Color"></a></li>
-                            <li><a href="#"><img src="./assets/imgs/لون-سكني.svg" alt="Red Color"></a></li>    
-                        </ul>
-                    </div>
-                </div> 
-                <div class="mb-10">
-                    <div class="flex gap-[230px]">
-                        <h2 class="text-[#323232] text-[14px] font-family-body font-semibold tracking-[1.4px]">SELECT SIZE</h2> 
-                        <p class="text-[#7B7A7A] text-[12px] font-family-body font-semibold tracking-[-0.6px]">SIZE GUIDE</p> 
-                    </div>
-                     <div class="mt-[16px] ">
-                        <button
-                            class="text-[12px] lg:text-[14px] inline-block px-[40.5px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 "><a
-                                href="#">S</a></button>
-                        <button
-                            class="text-[12px] lg:text-[14px] inline-block px-[40.5px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 "><a
-                                href="#">M</a></button>
-                        <button
-                            class="text-[12px] lg:text-[14px] inline-block px-[40.5px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 "><a
-                                href="#">L</a></button>
-                        <button
-                            class="text-[12px] lg:text-[14px] inline-block px-[40.5px] py-[9.4px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 "><a
-                                href="#">XL</a></button>
-                    </div>
-                </div>
             </div>
 
         </div>
+
+    </header>
+
+    <section class=" mt-25 mb-32">
+        <div class="container mx-auto flex gap-16">
+            <div class="w-[550px] shrink-0">
+                <div>
+                    <img src="./assets/imgs/فستان بيج سنجل برو.png" alt="Product Image">
+                </div>
+                <div class="w-67.5 flex gap-6 mt-6">
+                    <img src="./assets/imgs/قماش-مورد-سنجل-برو.png" alt="Product Image">
+                    <img src="./assets/imgs/single-pro-بلوزة.png" alt="Product Image">
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="gap-[8px]">
+                    <samp class="text-[#7B7A7A] text-[11px] font-family-body font-semibold tracking-[1.2px]">EDITORIAL
+                        COLLECTION</samp>
+                    <h1 class="text-[#323232] text-[48px] font-family-heading font-bold">Silk Lily Dress</h1>
+                    <samp class="text-[#40683F] text-[30px] font-family-body font-medium">$699.00</samp>
+                </div>
+                <div class="mt-[40px] mb-[40px]">
+                    <h2 class="text-[#323232] text-[14px] font-family-body font-semibold tracking-[1.4px]">COLOR</h2>
+                    <div class="mt-[16px] ">
+                        <ul class="flex gap-[12px]">
+                            <li><a href="#"><img src="./assets/imgs/لون-اسود.svg" alt="Black Color"></a></li>
+                            <li><a href="#"><img src="./assets/imgs/لون-ابيض.svg" alt="White Color"></a></li>
+                            <li><a href="#"><img src="./assets/imgs/لون-سكني.svg" alt="Red Color"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mb-10">
+                    <div class="flex gap-[230px]">
+                        <h2 class="text-[#323232] text-[14px] font-family-body font-semibold tracking-[1.4px]">SELECT
+                            SIZE</h2>
+                        <p class="text-[#7B7A7A] text-[12px] font-family-body font-semibold tracking-[-0.6px]">SIZE
+                            GUIDE</p>
+                    </div>
+                    <div class="mt-[16px] ">
+                        <button
+                            class="text-[12px] lg:text-[14px] inline-block px-[42.5px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 "><a
+                                href="#">S</a></button>
+                        <button
+                            class="text-[12px] lg:text-[14px] inline-block px-[42.5px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 "><a
+                                href="#">M</a></button>
+                        <button
+                            class="text-[12px] lg:text-[14px] inline-block px-[42.5px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 "><a
+                                href="#">L</a></button>
+                        <button
+                            class="text-[12px] lg:text-[14px] inline-block px-[42.5px] py-[9.4px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 "><a
+                                href="#">XL</a></button>
+                    </div>
+                </div>
+                <div>
+                    <div class="gap-4 flex mb-6 ">
+                        <button>
+                            <a href="#"
+                                class="text-[12px] lg:text-[14px] inline-block px-[36px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 ">-
+                                1 +</a>
+                        </button>
+                        <button>
+                            <a href="#"
+                                class="text-[12px] lg:text-[14px] inline-block px-[96px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 ">ADD
+                                TO CART</a>
+                        </button>
+                    </div>
+                    <div>
+                        <button>
+                            <a href="#"
+                                class="text-[12px] lg:text-[14px] inline-block px-[140px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 mt-4">ADD
+                                TO WISHLIST</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="mt-[40px]">
+                    <div class="gap-4 flex flex-col">
+                        <h2 class="text-[#323232] text-[14px] font-family-body font-semibold tracking-[1.4px]">PRODUCT
+                            DESCRIPTION </h2>
+                        <p class="text-[#5F5F5F] text-[16px] font-family-body font-light">Handcrafted from 100% premium
+                            mulberry silk, the Lily
+                            Dress features an ethereal silhouette inspired by botanical
+                            forms. Its fluid movement and subtle sheen make it a
+                            cornerstone piece for the modern minimalist wardrobe.
+                        </p>
+                    </div>
+                    <div class="mt-[40px] flex flex-col gap-[16px]">
+                        <div class="flex gap-[16px]">
+                            <img src="./assets/imgs/ورقة-شجر.svg" alt="Product Image">
+                            <p class="text-[#5F5F5F] text-[14px] font-family-body">Sustainably sourced silk materials
+                            </p>
+                        </div>
+                        <div class="flex gap-[16px]">
+                            <img src="./assets/imgs/شاحنة.svg" alt="Product Image">
+                            <p class="text-[#5F5F5F] text-[14px] font-family-body">Complimentary shipping on all orders
+                                over 2,000 SAR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
+    <section class="mb-[128px]">
+        <div class="container mx-auto flex gap-16">
+            <div class="w-[350px] skrink-0 gap-6 flex flex-col">
+                <div class="">
+                    <h2 class="text-[#323232] text-[36px] font-family-heading font-extrabold">Customer Reviews</h2>
+                </div>
+                <div class="flex gap-[16px]">
+                    <img src="./assets/imgs/stars.svg" alt="Rating Stars">
+                    <samp class="text-[#323232] text-[24px] font-family-body font-semibold">4.8</samp>
+                    <p class="text-[#7B7A7A] text-[14px] font-family-body font-semibold tracking-[1.4px]">(124 REVIEWS)
+                    </p>
+                </div>
+                <p class="text-[#5F5F5F] text-[16px] font-family-body font-light">Our customers are at the heart of
+                    everything
+                    we do. Read about their experiences with the
+                    Lily Dress and our editorial service.
+                </p>
+                <button
+                    class="text-[12px] lg:text-[14px] inline-block px-[32px] py-[16px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 mt-4"><a
+                        href="#">WRITE A REVIEW</a>
+                </button>
+            </div>
+
+            <div class="flex-1 gap-[48px] ">
+                <div class="flex gap-[348px]">
+                    <h3 class="text-[#323232] text-[18px] font-family-heading font-bold">Ethereal and Timeless</h3>
+                    <samp class="text-[#7B7A7A] text-[12px] font-family-body font-semibold tracking-[-0.6px]">2 DAYS
+                        AGO</samp>
+                </div>
+                <img class="mt-1" src="./assets/imgs/stars.svg" alt="Rating Stars">
+                <p class="mt-[16px]">The quality of the silk is unparalleled. It drapes beautifully and feels like a
+                    second skin. I wore
+                    it for
+                    an evening exhibition and received countless compliments on the minimalist silhouette.
+                </p>
+                <div class="flex gap-[8px] mt-[16px] mb-[48px]">
+                    <p class="text-[#323232] text-[14px] font-family-body font-semibold tracking-[1.4px]">— AMIRA K.</p>
+                    <img class="mt-1" src="./assets/imgs/verified.svg" alt="Heart Icon">
+                    <p class="text-[#7B7A7A] text-[13px] font-family-body font-semibold tracking-[0.96px]">VERIFIED
+                        BUYER</p>
+                </div>
+                <div class="flex gap-[238px]">
+                    <h3 class="text-[#323232] text-[18px] font-family-heading font-bold">The Perfect Wedding Guest Dress
+                    </h3>
+                    <samp class="text-[#7B7A7A] text-[12px] font-family-body font-semibold tracking-[-0.6px]">1 WEEK AGO
+                    </samp>
+                </div>
+                <img class="mt-1" src="./assets/imgs/stars.svg" alt="Rating Stars">
+                <p class="mt-[16px]">Absolutely stunning. The lily embroidery is such a delicate touch that adds a layer
+                    of artisanal
+                    charm to a classic white dress. The packaging was also exquisite.
+                </p>
+                <div class="flex gap-[8px] mt-[16px] mb-[48px]">
+                    <p class="text-[#323232] text-[14px] font-family-body font-semibold tracking-[1.4px]">— SARAH M.</p>
+                    <img class="mt-1" src="./assets/imgs/verified.svg" alt="Heart Icon">
+                    <p class="text-[#7B7A7A] text-[13px] font-family-body font-semibold tracking-[0.96px]">VERIFIED
+                        BUYER</p>
+                </div>
+                <div class="flex gap-[328px]">
+                    <h3 class="text-[#323232] text-[18px] font-family-heading font-bold">Quality and Movement</h3>
+                    <samp class="text-[#7B7A7A] text-[12px] font-family-body font-semibold tracking-[-0.6px]">2 WEEKS
+                        AGO
+                    </samp>
+                </div>
+                <img class="mt-1" src="./assets/imgs/stars.svg" alt="Rating Stars">
+                <p class="mt-[16px]">The movement of this dress is fluid and elegant. It fits true to size, though the
+                    length is generous. A
+                    true investment piece for a sustainable wardrobe.
+                </p>
+                <div class="flex gap-[8px] mt-[16px] mb-[48px]">
+                    <p class="text-[#323232] text-[14px] font-family-body font-semibold tracking-[1.4px]">— LEILA H.</p>
+                    <img class="mt-1" src="./assets/imgs/verified.svg" alt="Heart Icon">
+                    <p class="text-[#7B7A7A] text-[13px] font-family-body font-semibold tracking-[0.96px]">VERIFIED
+                        BUYER</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>

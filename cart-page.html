@@ -52,17 +52,17 @@
     <section>
         <div class="container mx-auto mt-[120px]">
             <div class="flex flex-col gap-[8px]">
-                <h1 class="text-[#323232] text-[36px] font-family-heading font-extrabold tracking-[-1.8px]">YOUR
+                <h1 class="text-[#323232] text-[24px] md:text-[36px] font-family-heading font-extrabold tracking-[-1.8px]">YOUR
                     SHOPPING CART</h1>
-                <p class="text-[#5F5F5F] text-[16px] font-family-body font-medium">Review your editorial selection
+                <p class="text-[#5F5F5F] text-[12px] md:text-[16px] font-family-body font-medium">Review your editorial selection
                     before proceeding.</p>
             </div>
         </div>
     </section>
     <section class="mt-[10px]">
         <div class="container mx-auto md:flex gap-[48px]">
-            <div class="w-166 shrink-0 mt-[48px] bg-[#EAE7E7]">
-                <div class="flex gap-45 bg-gray-300 py-4 px-5 rounded">
+            <div class="w-166 h-107.75 shrink-0 mt-[48px] bg-[#EAE7E7]">
+                <div class="flex gap-45 bg-gray-300 py-4 px-5 rounded-t-md">
                     <div class="flex gap-[64px]">
                         <p class="text-[#5F5F5F] text-[11px] font-family-body font-semibold">PRODUCT</p>
                         <p class="text-[#5F5F5F] text-[11px] font-family-body font-semibold">DETAILS</p>
@@ -142,13 +142,83 @@
           
             <div class="flex-1 mt-[48px] border border-[#323232] rounded-3xl pt-[10px] px-[10px]">
                 <div>
-                    <h2>ORDER SUMMARY</h2>
+                    <h2 class="mt-[33px] text-[#323232] text-[20px] font-family-heading font-extrabold">ORDER SUMMARY</h2>
                 </div> 
+                <div class="flex gap-[160px] mt-[32px]">
+                    <ul class="flex flex-col gap-[24px]">
+                        <li class="text-[#5F5F5F] text-[14px] font-family-body font-medium">Subtotal</li> 
+                        <li class="text-[#5F5F5F] text-[14px] font-family-body font-medium">Shipping</li>
+                        <li class="text-[#5F5F5F] text-[14px] font-family-body font-medium">Estimated Tax</li>
+                    </ul> 
+                    <ul class="flex flex-col gap-[24px]" >
+                        <li class="text-[#323232] text-[14px] font-family-body font-medium">$705.00</li> 
+                        <li class="text-[#323232] text-[14px] font-family-body font-medium">$12.00</li>
+                        <li class="text-[#323232] text-[14px] font-family-body font-medium">$56.40</li>
+                    </ul> 
+                </div>  
+                <div class="mt-[52px]">
+                      <ul class="flex  gap-[170px]">
+                        <li class="text-[#323232] text-[18px] font-family-body font-semibold">Total</li> 
+                        <li class="text-[24px] font-family-body font-semibold text-[#40683F]">$773.40</li>
+                    </ul>
+                </div> 
+                <div class="text-center mt-[56px] mb-[16px]">
+                    <button  class="text-[#335B32] text-[14px] font-family-heading font-extrabold inline-block px-[50px] py-[20px] border border-[#C1EFBA] bg-[#C1EFBA] hover:bg-[#40683F] hover:text-white transition duration-300 rounded-xs">PROCEED TO CHECKOUT</button>
+                </div> 
+                <div class="text-center">
+                    <p class="text-[#5F5F5F] text-[10px] font-family-body font-semibold tracking-[1px]">SECURE ENCRYPTED TRANSACTION</p>
+                </div> 
+                <div class="flex gap-[8px] text-center justify-center mb-[33px]">
+                    <button class="text-[#335B32] text-[14px] font-family-body inline-block px-[10px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 mt-[32px]">VISA
+                        </button> 
+                     <button class="text-[#335B32] text-[14px] font-family-body inline-block px-[10px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 mt-[32px]">MC
+                        </button> 
+                     <button class="text-[#335B32] text-[14px] font-family-body inline-block px-[10px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 mt-[32px]">AMEX
+                        </button> 
+                     <button class="text-[#335B32] text-[14px] font-family-body inline-block px-[10px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 mt-[32px]">PAY
+                        </button>            
+                </div>
                 
             </div>
         </div>
     </section>
+    <section class="mb-20.75">
+        <div class="container mx-auto"> 
+           <h2 class="text-[#323232] text-[14px] font-family-body font-semibold tracking-[1.4px]">CONTINUE SHOPPING</h2>
+            
+        </div>
+    </section> 
+     <footer class="bg-[#F6F3F2]">
+        <div class="items-center">
+            <div class="container mx-auto flex flex-col items-center text-center  ">
+                <div class="mt-[64px]">
+                    <img class="" src="./assets/imgs/logo-mn.svg" />
+                </div>
+                <div class="mt-[32px]">
+                    <ul class="md:flex gap-[48px]">
+                        <li><a class="text-[#5F5E5E] font-family-body font-semibold text-[11px]" href="#">PRIVACY
+                                POLICY</a></li>
+                        <li><a class="text-[#5F5E5E] font-family-body font-semibold text-[11px]" href="#">TERMS OF
+                                SERVICE</a></li>
+                        <li><a class="text-[#5F5E5E] font-family-body font-semibold text-[11px]" href="#">SHIPPING &
+                                RETURNS</a></li>
+                        <li><a class="text-[#5F5E5E] font-family-body font-semibold text-[11px]" href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex justify-center gap-[24px] mt-[48px] mb-[64px]">
+                    <a href="#"><img src="./assets/imgs/footer-share.svg" /></a>
+                    <a href="#"><img src="./assets/imgs/footer world.svg" /></a>
+                    <a href="#"><img src="./assets/imgs/footer-massege.svg" /></a>
+                </div>
+                <div class="mb-[64px]">
+                    <p class="text-[#5F5E5E] text-[11px] font-family-body font-semibold">© 2026 M&N EDITORIAL. ALL
+                        RIGHTS RESERVED.</p>
+                </div>
 
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

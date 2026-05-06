@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="./assets/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="py-[24px] md:py-[18px] fixed top-0 left-0  w-full bg-white z-10">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="menue block lg:hidden">
+                <a href="#"><img class="w-6 md:hidden" src="assets/imgs/menue.svg" alt="Menue"></a>
+            </div>
+            <div class="logo">
+                <img src="assets/imgs/logo-mn.svg" alt="Logo">
+            </div>
+            <nav class="list hidden md:block">
+                <ul class="flex gap-[32px] text-[16px] ">
+                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition" href="./index.html">HOME</a>
+                    </li>
+                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition"
+                            href="./Product-listing.html">COLLECTIONS</a>
+                    </li>
+                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition"
+                            href="./single-product.html">NEW ARRIVALS</a>
+                    </li>
+                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition" href="#">SHOP</a></li>
+                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition" href="#">ABOUT M&N</a></li>
+                </ul>
+            </nav>
+            <div class="icons flex gap-[25.5px]">
+                <a href="#"><img src="assets/imgs/heart.svg" alt="Cart"></a>
+                <a class="Wishlist hidden md:block " href="./cart-page.html"><img src="assets/imgs/green-cart.svg"
+                        alt="Wishlist"></a>
+            </div>
+
+        </div>
+
+    </header>
+    <section>
+        <div class="container mx-auto mt-[120px]">
+            <div class="flex flex-col gap-[8px]">
+                <h1 class="text-[#323232] text-[36px] font-family-heading font-extrabold tracking-[-1.8px]">YOUR
+                    SHOPPING CART</h1>
+                <p class="text-[#5F5F5F] text-[16px] font-family-body font-medium">Review your editorial selection
+                    before proceeding.</p>
+            </div>
+        </div>
+    </section>
+    <section class="mt-[10px]">
+        <div class="container mx-auto md:flex gap-[48px]">
+            <div class="w-166 shrink-0 mt-[48px] bg-[#EAE7E7]">
+                <div class="flex gap-45 bg-gray-300 py-4 px-5 rounded">
+                    <div class="flex gap-[64px]">
+                        <p class="text-[#5F5F5F] text-[11px] font-family-body font-semibold">PRODUCT</p>
+                        <p class="text-[#5F5F5F] text-[11px] font-family-body font-semibold">DETAILS</p>
+                    </div>
+                    <div class="flex gap-[64px]">
+                        <p class="text-[#5F5F5F] text-[11px] font-family-body font-semibold">QUANTITY</p>
+                        <p class="text-[#5F5F5F] text-[11px] font-family-body font-semibold">PRICE</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex gap-[48px] mt-[32px]">
+                        <div class="flex gap-7.5">
+                            <img class="w-24" src="assets/imgs/cart ترانشكوت.png" alt="Product Image">
+                            <div class="flex flex-col gap-[4px]">
+                                <h2 class="text-[#323232] text-[18px] font-family-heading font-bold">OSLO SILK TRENCH
+                                </h2>
+                                <h3 class="text-[#5F5F5F] text-[14px] font-family-body">Color: Bone White</h3>
+                                <button
+                                    class="text-[#335B32] text-[11px] font-family-body inline-block px-[12px] py-[12px] border border-[#C1EFBA] bg-[#C1EFBA] rounded-3xl">SIZE:
+                                    L
+                                </button>
+                            </div>
+                        </div>
+                        <div class="flex  gap-[34px]">
+                            <div>
+                                <button>
+                                    <a href="#"
+                                        class="text-[12px] lg:text-[14px] inline-block px-[36px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 ">-
+                                        1 +</a></button>
+                            </div>
+                            <div>
+                                <samp class="text-[#323232] text-[18px] font-family-heading font-bold">$420.00</samp>
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <img src="assets/imgs/trash.svg" alt="Remove Item">
+                        </div>
+
+
+                    </div>
+                    <div class="flex gap-[48px] mt-[32px]">
+                        <div class="flex gap-[20px]">
+                            <img class="w-24" src="assets/imgs/حقيبة-خضراء-كارت-بيج.png" alt="Product Image">
+                            <div class="flex flex-col gap-[4px]">
+                                <h2 class="text-[#323232] text-[18px] font-family-heading font-bold">ARCH LEATHER TOTE
+                                </h2>
+                                <h3 class="text-[#5F5F5F] text-[14px] font-family-body">Material: Full Grain</h3>
+                                <button
+                                    class="text-[#335B32] text-[11px] font-family-body inline-block px-[12px] py-[12px] border border-[#C1EFBA] bg-[#C1EFBA] rounded-3xl">ONE
+                                    SIZE
+                                </button>
+                            </div>
+                        </div>
+                        <div class="flex  gap-[34px]">
+                            <div>
+                                <button>
+                                    <a href="#"
+                                        class="text-[12px] lg:text-[14px] inline-block px-[36px] py-[8px] border border-[#E6E1DE] text-[#323232] text-[#323232] bg-white hover:text-white hover:bg-[#40683F] transition duration-300 ">-
+                                        1 +</a></button>
+                            </div>
+                            <div>
+                                <samp class="text-[#323232] text-[18px] font-family-heading font-bold">$285.00</samp>
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <img src="assets/imgs/trash.svg" alt="Remove Item">
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+          
+            <div class="flex-1 mt-[48px] border border-[#323232] rounded-3xl pt-[10px] px-[10px]">
+                <div>
+                    <h2>ORDER SUMMARY</h2>
+                </div> 
+                
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

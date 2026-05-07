@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="./assets/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="py-[24px] md:py-[18px] fixed top-0 left-0  w-full bg-white z-10">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="menue block lg:hidden">
+                <a href="#"><img class="w-6 md:hidden" src="assets/imgs/menue.svg" alt="Menue"></a>
+            </div>
+            <div class="logo">
+                <img src="assets/imgs/logo-mn.svg" alt="Logo">
+            </div>
+            <nav class="list hidden md:block">
+                <ul class="flex gap-[32px] text-[16px] ">
+                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition" href="./index.html">HOME</a>
+                    </li>
+                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition"
+                            href="./Product-listing.html">COLLECTIONS</a>
+                    </li>
+                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition"
+                            href="./single-product.html">NEW ARRIVALS</a>
+                    </li>
+                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition" href="#">SHOP</a></li>
+                    <li><a class="font-body text-[#323232] hover:text-[#A8D5A2] transition" href="#">ABOUT M&N</a></li>
+                </ul>
+            </nav>
+            <div class="icons flex gap-[25.5px]">
+                <a href="./cart-page.html"><img src="assets/imgs/cart.svg" alt="Cart"></a>
+                <a class="Wishlist hidden md:block " href="#"><img src="assets/imgs/heart.svg" alt="Wishlist"></a>
+            </div>
+
+        </div>
+
+    </header>
+    <section class="mt-35">
+        <div class="container mx-auto">
+            <div class="flex flex-col mb-[48px] ">
+                <h1 class="text-[#323232] text-[48px] font-family-heading font-extrabold">Checkout</h1>
+                <h2 class="text-[#5F5F5F] text-[16px] font-family-body font-semibold">Complete your order details below
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="mt-[48px]">
+        <div class="container mx-auto flex gap-16 ">
+            <div class="w-[640px] shrink-0">
+                <div>
+                    <h3 class="text-[#323232] text-[20px] font-family-heading font-bold tracking-[-.5px]">SHIPPING
+                        INFORMATION</h3>
+                </div>
+                <div class="mt-[32px]">
+                    <p class="text-[#5F5F5F] text-[11px] font-family-body font-bold tracking-[1.1px]">FULL NAME</p>
+                    <input
+                        class="w-full h-[48px] mt-[8px] border border-[#E0E0E0] rounded-[4px] px-[16px] text-[14px] font-family-body font-normal text-[#5F5F5F]"
+                        type="text" placeholder="Enter your full name">
+                </div>
+                <div class="flex gap-[10px] mt-[24px]">
+                    <div>
+                        <p class="text-[#5F5F5F] text-[11px] font-family-body font-bold tracking-[1.1px]">PHONE NUMBER
+                        </p>
+                        <input
+                            class="w-full h-[48px] mt-[8px] border border-[#E0E0E0] rounded-[4px] px-[60px] text-[14px] font-family-body font-normal text-[#5F5F5F]"
+                            type="number" placeholder="Enter your phone number">
+                    </div>
+                    <div>
+                        <p class="text-[#5F5F5F] text-[11px] font-family-body font-bold tracking-[1.1px]">COUNTRY</p>
+                        <input
+                            class="w-full h-[48px] mt-[8px] border border-[#E0E0E0] rounded-[4px] px-[60px] text-[14px] font-family-body font-normal text-[#5F5F5F]"
+                            type="text" placeholder="Enter your country">
+                    </div>
+                </div>
+                <div class="mt-[24px]">
+                    <p class="text-[#5F5F5F] text-[11px] font-family-body font-bold tracking-[1.1px]">ADDRESS</p>
+                    <input
+                        class="w-full h-[48px] mt-[8px] border border-[#E0E0E0] rounded-[4px] px-[16px] text-[14px] font-family-body font-normal text-[#5F5F5F]"
+                        type="text" placeholder="Enter your addres">
+
+                </div>
+                <div class="flex gap-[10px] mt-[24px]">
+                    <div>
+                        <p class="text-[#5F5F5F] text-[11px] font-family-body font-bold tracking-[1.1px]">CITY
+                        </p>
+                        <input
+                            class="w-full h-[48px] mt-[8px] border border-[#E0E0E0] rounded-[4px] px-[60px] text-[14px] font-family-body font-normal text-[#5F5F5F]"
+                            type="text" placeholder="Enter your city">
+                    </div>
+                    <div>
+                        <p class="text-[#5F5F5F] text-[11px] font-family-body font-bold tracking-[1.1px]">ZIP / POSTAL
+                            CODE</p>
+                        <input
+                            class="w-full h-[48px] mt-[8px] border border-[#E0E0E0] rounded-[4px] px-[60px] text-[14px] font-family-body font-normal text-[#5F5F5F]"
+                            type="number" placeholder="Enter your code">
+                    </div>
+                </div>
+                <div class="mt-[50px] mb-8">
+                    <h3 class="text-[#323232] text-[20px] font-family-heading font-bold tracking-[-.5px]">PAYMENT METHOD
+                    </h3>
+                </div>
+                <div class="flex gap-[16px]">
+                    <label
+                        class="flex items-center gap-2 h-[48px] mt-[8px] border border-[#E0E0E0] rounded-[16px] px-[70px] text-[14px] font-body cursor-pointer hover:text-[#40683F] hover:border-[#40683F]">
+                        <input type="radio" name="payment" value="Credit Card" class="accent-[#40683F]"> Credit Card
+                    </label>
+                    <label
+                        class="flex items-center gap-2 h-[48px] mt-[8px] border border-[#E0E0E0] rounded-[16px] px-[70px] text-[14px] font-body cursor-pointer hover:text-[#40683F] hover:border-[#40683F]">
+                        <input type="radio" name="payment" value="Cash on Delivery" class="accent-[#40683F]"> Cash on
+                        Delivery
+                    </label>
+                </div>
+                <div class="mt-[56px]">
+                    <p class="text-[#5F5F5F] text-[11px] font-family-body font-bold tracking-[1.1px]">CARD NUMBER</p>
+                    <input
+                        class="w-full h-[48px] mt-[8px] border border-[#E0E0E0] rounded-[4px] px-[60px] text-[14px] font-family-body font-normal text-[#5F5F5F]"
+                        type="number" placeholder="Enter your card number">
+                </div>
+                <div class="flex gap-[16px] mt-[16px] mb-[80px]">
+                    <div>
+                        <p class="text-[#5F5F5F] text-[11px] font-family-body font-bold tracking-[1.1px]">EXPIRY DATE
+                        </p>
+                        <input
+                            class="w-full h-[48px] mt-[8px] border border-[#E0E0E0] rounded-[4px] px-[60px] text-[14px] font-family-body font-normal text-[#5F5F5F]"
+                            type="datetime" placeholder="MM/YY">
+                    </div>
+                    <div>
+                        <p class="text-[#5F5F5F] text-[11px] font-family-body font-bold tracking-[1.1px]">CVV</p>
+                        <input
+                            class="w-full h-[48px] mt-[8px] border border-[#E0E0E0] rounded-[4px] px-[60px] text-[14px] font-family-body font-normal text-[#5F5F5F]"
+                            type="number" placeholder="123">
+                    </div>
+                </div>
+                <div class="mb-42">
+                    <button
+                        class="inline-block text-[#0A0A0A] border border-[#0A0A0A] text-[20px] font-family-heading font-bold tracking-[4px] px-[180px] py-[16px] hover:text-white hover:bg-[#40683F] transition"><a
+                            href="#">
+                            CONFIRM ORDER
+                        </a> </button>
+                </div>
+            </div> 
+            <div class="bg-[#E4E2E1] flex-1 rounded-xs">
+            <div class="mt-[32px] px-[32px]">
+                <h2 class="text-[#323232] text-[20px] font-family-heading font-bold tracking-[2px]">ORDER SUMMARY</h2>
+            </div>
+        </div>
+        </div>
+        
+    </section>
+
+</body>
+
+</html>

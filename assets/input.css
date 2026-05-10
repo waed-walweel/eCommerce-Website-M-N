@@ -16,10 +16,10 @@ html {
     overflow-x: hidden;
 } 
 @theme {
-  --breakpoint-2xl: 1532px;
+  --breakpoint-2xl: 1232px;
 } 
 @layer base {
   .container {
-    max-width: 1532px;
+    max-width: 1232px;
   }
 }

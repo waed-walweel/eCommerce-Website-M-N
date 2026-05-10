@@ -217,8 +217,8 @@
   }
   .container {
     width: 100%;
-    @media (width >= 1532px) {
-      max-width: 1532px;
+    @media (width >= 1232px) {
+      max-width: 1232px;
     }
     @media (width >= 40rem) {
       max-width: 40rem;
@@ -1362,7 +1362,7 @@ html {
 }
 @layer base {
   .container {
-    max-width: 1532px;
+    max-width: 1232px;
   }
 }
 @property --tw-translate-x {
